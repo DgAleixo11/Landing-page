@@ -184,6 +184,12 @@ body {
     width: 60%;
 }
 
+.texto::first-letter {
+  font-size: 50px;
+  font-weight: bold;
+  color: palevioletred;
+}
+
 @media(max-width: 1200px) {
     .quem-somos .conteudo {
         flex-direction: column;
